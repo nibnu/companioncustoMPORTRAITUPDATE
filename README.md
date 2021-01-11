@@ -13,3 +13,5 @@ Then you can use it in your project according to documentation.
 To build documentation you have to clone this repository and then run this cargo command inside project's folder:
 
 `cargo doc --open`
+
+Documentation will open in your default browser.
