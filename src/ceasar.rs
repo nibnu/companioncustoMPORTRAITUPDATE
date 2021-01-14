@@ -23,3 +23,5 @@ pub fn ceasar_cipher(message: &[u8], key: u8) -> Vec<u8> {
 
     message
         .iter()
+        .map(|b| b - 97)
+        .map(|b| (b + key) % 26)
