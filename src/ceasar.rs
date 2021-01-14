@@ -18,3 +18,8 @@ use crate::check_message_from_letters;
 ///
 /// ```
 pub fn ceasar_cipher(message: &[u8], key: u8) -> Vec<u8> {
+    check_ceasar_key(key);
+    check_message_from_letters(message);
+
+    message
+        .iter()
