@@ -4,3 +4,9 @@
 use crate::check_message_from_letters;
 
 /// Encrypts the `message` using ceasar cipher with `key`.
+///
+/// # Panics
+/// Panics if `key > 25` or `message` doesn't consist of ASCII lowercase letters.
+///
+/// # Examples
+/// ```
