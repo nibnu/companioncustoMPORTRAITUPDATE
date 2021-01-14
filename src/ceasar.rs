@@ -28,3 +28,9 @@ pub fn ceasar_cipher(message: &[u8], key: u8) -> Vec<u8> {
         .map(|b| b + 97)
         .collect()
 }
+
+/// Decrypts the `encrypted_message` using ceasar cipher with `key`.
+///
+/// # Panics
+/// Panics if `key > 25` or `encrypted_message` doesn't consist of ASCII lowercase letters.
+///
