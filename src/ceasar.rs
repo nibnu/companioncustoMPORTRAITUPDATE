@@ -10,3 +10,6 @@ use crate::check_message_from_letters;
 ///
 /// # Examples
 /// ```
+/// use crypto::ceasar::ceasar_cipher;
+///
+/// let message = b"hello";
