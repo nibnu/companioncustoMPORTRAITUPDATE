@@ -13,3 +13,8 @@ use crate::check_message_from_letters;
 /// use crypto::ceasar::ceasar_cipher;
 ///
 /// let message = b"hello";
+/// let encrypted_message = ceasar_cipher(message, 15);
+/// assert_eq!(b"wtaad", &encrypted_message[..]);
+///
+/// ```
+pub fn ceasar_cipher(message: &[u8], key: u8) -> Vec<u8> {
