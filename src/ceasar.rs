@@ -34,3 +34,18 @@ pub fn ceasar_cipher(message: &[u8], key: u8) -> Vec<u8> {
 /// # Panics
 /// Panics if `key > 25` or `encrypted_message` doesn't consist of ASCII lowercase letters.
 ///
+/// # Examples
+/// ```
+/// use crypto::ceasar::ceasar_cipher_decrypt;
+///
+/// let encrypted_message = b"wtaad";
+/// let message = ceasar_cipher_decrypt(encrypted_message, 15);
+/// assert_eq!(b"hello", &message[..]);
+///
+/// ```
+pub fn ceasar_cipher_decrypt(encrypted_message: &[u8], key: u8) -> Vec<u8> {
+    check_ceasar_key(key);
+    check_message_from_letters(encrypted_message);
+
+    encrypted_message
+        .iter()
