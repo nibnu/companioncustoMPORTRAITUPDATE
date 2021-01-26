@@ -63,3 +63,12 @@ fn check_ceasar_key(key: u8) {
 #[cfg(test)]
 mod tests {
     use super::*;
+
+    #[test]
+    #[should_panic]
+    fn not_ceasar_key() {
+        check_ceasar_key(26);
+    }
+
+    #[test]
+    fn ceasar_key() {
