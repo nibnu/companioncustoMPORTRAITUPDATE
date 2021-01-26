@@ -55,3 +55,7 @@ pub fn ceasar_cipher_decrypt(encrypted_message: &[u8], key: u8) -> Vec<u8> {
         .map(|b| b + 97)
         .collect()
 }
+
+fn check_ceasar_key(key: u8) {
+    assert!(key < 26, "key can't be greater than 25");
+}
