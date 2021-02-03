@@ -72,3 +72,8 @@ mod tests {
 
     #[test]
     fn ceasar_key() {
+        check_ceasar_key(15);
+    }
+
+    #[test]
+    fn ceasar_works() {
