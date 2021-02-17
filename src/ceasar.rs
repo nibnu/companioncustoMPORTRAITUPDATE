@@ -80,3 +80,6 @@ mod tests {
         let message = b"hello";
         let encrypted_message = ceasar_cipher(message, 15);
         let decrypted_message = ceasar_cipher_decrypt(&encrypted_message, 15);
+        assert_eq!(message, &decrypted_message[..]);
+    }
+}
