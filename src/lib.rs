@@ -7,3 +7,10 @@ pub mod ceasar;
 pub mod substitution;
 
 fn check_message_from_letters(message: &[u8]) {
+    for letter in message {
+        assert!(*letter >= 97 && *letter <= 122, "invalid message");
+    }
+}
+
+#[cfg(test)]
+mod tests {
