@@ -14,3 +14,8 @@ fn check_message_from_letters(message: &[u8]) {
 
 #[cfg(test)]
 mod tests {
+    use super::*;
+
+    #[test]
+    fn message_from_letters() {
+        let message = b"hello";
