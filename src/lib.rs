@@ -19,3 +19,5 @@ mod tests {
     #[test]
     fn message_from_letters() {
         let message = b"hello";
+        check_message_from_letters(message);
+    }
