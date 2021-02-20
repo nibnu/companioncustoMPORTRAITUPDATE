@@ -21,3 +21,7 @@ mod tests {
         let message = b"hello";
         check_message_from_letters(message);
     }
+
+    #[test]
+    #[should_panic]
+    fn message_not_from_letters() {
