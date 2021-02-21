@@ -26,3 +26,6 @@ mod tests {
     #[should_panic]
     fn message_not_from_letters() {
         let message = [97, 98, 53];
+        check_message_from_letters(&message);
+    }
+}
