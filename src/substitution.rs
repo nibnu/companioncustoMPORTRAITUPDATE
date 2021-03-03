@@ -1,1 +1,1 @@
-//! Methods for encrypting and decryptin
+//! Methods for encrypting and decrypting me
