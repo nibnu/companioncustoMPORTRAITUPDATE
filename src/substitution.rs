@@ -1,1 +1,1 @@
-//! Methods for encrypting and decrypting messages using su
+//! Methods for encrypting and decrypting messages using substitu
