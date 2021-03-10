@@ -1,1 +1,1 @@
-//! Methods for encrypting and decrypting messages using substitu
+//! Methods for encrypting and decrypting messages using substitution c
