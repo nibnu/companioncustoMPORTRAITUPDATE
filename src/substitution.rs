@@ -1,1 +1,1 @@
-//! Methods for encrypting and decrypting messages using substitution ciph
+//! Methods for encrypting and decrypting messages using substitution cipher.
