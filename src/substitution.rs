@@ -2,4 +2,4 @@
 
 use crate::check_message_from_letters;
 
-/// Encrypts `message` by substitution
+/// Encrypts `message` by substitution accord
