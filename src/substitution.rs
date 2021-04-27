@@ -6,3 +6,4 @@ use crate::check_message_from_letters;
 /// Every letter is substituted for letter at position (letter's alphabet index)
 /// in `permutation` array.
 ///
+/// # 
