@@ -7,4 +7,4 @@ use crate::check_message_from_letters;
 /// in `permutation` array.
 ///
 /// # Panics
-/// Panics if `pe
+/// Panics if `permutati
