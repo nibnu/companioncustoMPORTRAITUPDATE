@@ -7,4 +7,4 @@ use crate::check_message_from_letters;
 /// in `permutation` array.
 ///
 /// # Panics
-/// Panics if `permutation` is not a v
+/// Panics if `permutation` is not a valid
