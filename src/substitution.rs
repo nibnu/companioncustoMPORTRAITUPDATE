@@ -7,4 +7,4 @@ use crate::check_message_from_letters;
 /// in `permutation` array.
 ///
 /// # Panics
-/// Panics if `permutation` is not a valid ASCII 
+/// Panics if `permutation` is not a valid ASCII lowerca
