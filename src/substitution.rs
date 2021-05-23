@@ -8,4 +8,5 @@ use crate::check_message_from_letters;
 ///
 /// # Panics
 /// Panics if `permutation` is not a valid ASCII lowercase permutation or
-/// `message` doesn't consist of ASCII lowercase letters
+/// `message` doesn't consist of ASCII lowercase letters.
+//
