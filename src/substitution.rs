@@ -11,4 +11,4 @@ use crate::check_message_from_letters;
 /// `message` doesn't consist of ASCII lowercase letters.
 ///
 /// # Examples
-/
+/// `
