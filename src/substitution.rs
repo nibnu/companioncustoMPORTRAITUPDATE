@@ -12,4 +12,4 @@ use crate::check_message_from_letters;
 ///
 /// # Examples
 /// ```
-/// use crypto::substitut
+/// use crypto::substitution:
