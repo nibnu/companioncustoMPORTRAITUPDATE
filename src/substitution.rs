@@ -15,4 +15,5 @@ use crate::check_message_from_letters;
 /// use crypto::substitution::substitution_cipher;
 ///
 /// let message = b"hello";
-/// let permutation = b"zyxwvutsrqponmlkjihgfedcb
+/// let permutation = b"zyxwvutsrqponmlkjihgfedcba";
+/
