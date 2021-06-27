@@ -16,4 +16,4 @@ use crate::check_message_from_letters;
 ///
 /// let message = b"hello";
 /// let permutation = b"zyxwvutsrqponmlkjihgfedcba";
-/// l
+/// let encry
