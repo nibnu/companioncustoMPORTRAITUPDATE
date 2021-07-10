@@ -18,4 +18,4 @@ use crate::check_message_from_letters;
 /// let permutation = b"zyxwvutsrqponmlkjihgfedcba";
 /// let encrypted_message = substitution_cipher(message, *permutation);
 
-/// assert_e
+/// assert_eq!(b
