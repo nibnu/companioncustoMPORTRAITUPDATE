@@ -19,4 +19,4 @@ use crate::check_message_from_letters;
 /// let encrypted_message = substitution_cipher(message, *permutation);
 
 /// assert_eq!(b"svool", &encrypted_message[..]);
-/
+/// ``
