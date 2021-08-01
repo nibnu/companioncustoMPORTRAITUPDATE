@@ -20,4 +20,4 @@ use crate::check_message_from_letters;
 
 /// assert_eq!(b"svool", &encrypted_message[..]);
 /// ```
-pub fn substitution_cipher(message: &[u8], permut
+pub fn substitution_cipher(message: &[u8], permutation:
