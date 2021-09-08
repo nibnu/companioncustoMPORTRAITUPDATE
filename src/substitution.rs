@@ -25,4 +25,4 @@ pub fn substitution_cipher(message: &[u8], permutation: [u8; 26]) -> Vec<u8> {
     check_message_from_letters(message);
 
     message
-        .it
+        .iter(
