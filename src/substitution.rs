@@ -27,4 +27,4 @@ pub fn substitution_cipher(message: &[u8], permutation: [u8; 26]) -> Vec<u8> {
     message
         .iter()
         .map(|b| b - 97)
-        .map(|b| pe
+        .map(|b| permuta
