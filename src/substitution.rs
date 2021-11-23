@@ -36,4 +36,6 @@ pub fn substitution_cipher(message: &[u8], permutation: [u8; 26]) -> Vec<u8> {
 ///
 /// # Panics
 /// Panics if `permutation` is not a valid ASCII lowercase permutation or
-/// `message` doesn't consist of ASCII lowercase letters
+/// `message` doesn't consist of ASCII lowercase letters.
+///
+/// #
