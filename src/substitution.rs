@@ -42,4 +42,4 @@ pub fn substitution_cipher(message: &[u8], permutation: [u8; 26]) -> Vec<u8> {
 /// ```
 /// use crypto::substitution::substitution_cipher_decrypt;
 ///
-/// let encrypted_me
+/// let encrypted_message 
