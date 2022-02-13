@@ -45,3 +45,4 @@ pub fn substitution_cipher(message: &[u8], permutation: [u8; 26]) -> Vec<u8> {
 /// let encrypted_message = b"svool";
 /// let permutation = b"zyxwvutsrqponmlkjihgfedcba";
 /// let message = substitution_cipher_decrypt(encrypted_message, *permutation);
+///
