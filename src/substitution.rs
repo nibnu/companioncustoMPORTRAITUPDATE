@@ -47,4 +47,4 @@ pub fn substitution_cipher(message: &[u8], permutation: [u8; 26]) -> Vec<u8> {
 /// let message = substitution_cipher_decrypt(encrypted_message, *permutation);
 ///
 /// assert_eq!(b"hello", &message[..]);
-//
+/// ```
