@@ -49,4 +49,4 @@ pub fn substitution_cipher(message: &[u8], permutation: [u8; 26]) -> Vec<u8> {
 /// assert_eq!(b"hello", &message[..]);
 /// ```
 pub fn substitution_cipher_decrypt(encrypted_message: &[u8], permutation: [u8; 26]) -> Vec<u8> {
-    check_
+    check_per
