@@ -51,3 +51,5 @@ pub fn substitution_cipher(message: &[u8], permutation: [u8; 26]) -> Vec<u8> {
 pub fn substitution_cipher_decrypt(encrypted_message: &[u8], permutation: [u8; 26]) -> Vec<u8> {
     check_permutation(permutation);
     check_message_from_letters(encrypted_message);
+
+    
