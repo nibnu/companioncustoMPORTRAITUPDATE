@@ -53,4 +53,5 @@ pub fn substitution_cipher_decrypt(encrypted_message: &[u8], permutation: [u8; 2
     check_message_from_letters(encrypted_message);
 
     encrypted_message
-        .ite
+        .iter()
+    
