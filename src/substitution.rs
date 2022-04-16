@@ -54,4 +54,4 @@ pub fn substitution_cipher_decrypt(encrypted_message: &[u8], permutation: [u8; 2
 
     encrypted_message
         .iter()
-        .map(|b|
+        .map(|b| inde
