@@ -59,4 +59,5 @@ pub fn substitution_cipher_decrypt(encrypted_message: &[u8], permutation: [u8; 2
         .collect()
 }
 
-/// Finds index of `letter` in the `permutation
+/// Finds index of `letter` in the `permutation`.
+//
