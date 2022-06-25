@@ -61,4 +61,5 @@ pub fn substitution_cipher_decrypt(encrypted_message: &[u8], permutation: [u8; 2
 
 /// Finds index of `letter` in the `permutation`.
 /// You have to check before calling this function if `letter` is
-/// valid ASCII lowercase letter and `permutation` is valid permutatio
+/// valid ASCII lowercase letter and `permutation` is valid permutation.
+fn 
