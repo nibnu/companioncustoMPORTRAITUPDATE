@@ -64,4 +64,4 @@ pub fn substitution_cipher_decrypt(encrypted_message: &[u8], permutation: [u8; 2
 /// valid ASCII lowercase letter and `permutation` is valid permutation.
 fn index_in_permutation(letter: u8, permutation: [u8; 26]) -> usize {
     permutation
-   
+        .i
