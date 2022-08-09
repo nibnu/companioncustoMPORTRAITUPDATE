@@ -65,4 +65,4 @@ pub fn substitution_cipher_decrypt(encrypted_message: &[u8], permutation: [u8; 2
 fn index_in_permutation(letter: u8, permutation: [u8; 26]) -> usize {
     permutation
         .iter()
-    
+       
