@@ -68,4 +68,4 @@ fn index_in_permutation(letter: u8, permutation: [u8; 26]) -> usize {
         .enumerate()
         .filter(|(_, &l)| letter == l)
         .next()
-        .un
+        .unwrap
