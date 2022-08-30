@@ -72,4 +72,4 @@ fn index_in_permutation(letter: u8, permutation: [u8; 26]) -> usize {
         .0
 }
 
-/// Checks if `permutation` i
+/// Checks if `permutation` is vali
