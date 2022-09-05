@@ -73,4 +73,4 @@ fn index_in_permutation(letter: u8, permutation: [u8; 26]) -> usize {
 }
 
 /// Checks if `permutation` is valid ASCII lowercase letters permutation.
-fn check_permu
+fn check_permutati
