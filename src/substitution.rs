@@ -77,4 +77,4 @@ fn check_permutation(permutation: [u8; 26]) {
     let mut letters = [0; 26];
 
     for letter in permutation {
-        println!("{}
+        println!("{}", le
