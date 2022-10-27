@@ -78,4 +78,4 @@ fn check_permutation(permutation: [u8; 26]) {
 
     for letter in permutation {
         println!("{}", letter);
-        assert!(letter >= 97 && letter <= 122, "not a perm
+        assert!(letter >= 97 && letter <= 122, "not a permut
