@@ -80,4 +80,4 @@ fn check_permutation(permutation: [u8; 26]) {
         println!("{}", letter);
         assert!(letter >= 97 && letter <= 122, "not a permutation");
 
-        let letter =
+        let letter = lette
