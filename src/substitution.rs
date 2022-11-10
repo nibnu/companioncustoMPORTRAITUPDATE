@@ -82,4 +82,4 @@ fn check_permutation(permutation: [u8; 26]) {
 
         let letter = letter - 97;
 
- 
+      
