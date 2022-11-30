@@ -83,3 +83,5 @@ fn check_permutation(permutation: [u8; 26]) {
         let letter = letter - 97;
 
         assert!(letters[letter as usize] == 0, "not a permutation");
+
+   
