@@ -84,4 +84,5 @@ fn check_permutation(permutation: [u8; 26]) {
 
         assert!(letters[letter as usize] == 0, "not a permutation");
 
-        letters[letter as usize] +
+        letters[letter as usize] += 1;
+   
