@@ -90,4 +90,4 @@ fn check_permutation(permutation: [u8; 26]) {
 
 #[cfg(test)]
 mod tests {
- 
+    
