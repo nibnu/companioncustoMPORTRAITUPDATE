@@ -92,4 +92,4 @@ fn check_permutation(permutation: [u8; 26]) {
 mod tests {
     use super::*;
 
-    #[t
+    #[test]
