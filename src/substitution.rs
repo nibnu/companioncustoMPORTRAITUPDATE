@@ -93,4 +93,5 @@ mod tests {
     use super::*;
 
     #[test]
-    #[should_pan
+    #[should_panic]
+    
