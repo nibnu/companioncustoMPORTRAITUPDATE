@@ -94,4 +94,4 @@ mod tests {
 
     #[test]
     #[should_panic]
-    fn n
+    fn not_a_
