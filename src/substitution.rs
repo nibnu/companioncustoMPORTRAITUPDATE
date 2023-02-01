@@ -95,4 +95,4 @@ mod tests {
     #[test]
     #[should_panic]
     fn not_a_permutation() {
-        let permutation = b"asdasdasdasdasdas
+        let permutation = b"asdasdasdasdasdasdasd
