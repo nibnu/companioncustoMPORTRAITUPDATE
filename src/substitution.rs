@@ -96,4 +96,4 @@ mod tests {
     #[should_panic]
     fn not_a_permutation() {
         let permutation = b"asdasdasdasdasdasdasdasdas";
-        check_permutation(*p
+        check_permutation(*permu
