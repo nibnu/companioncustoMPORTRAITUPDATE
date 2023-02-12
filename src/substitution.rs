@@ -97,4 +97,6 @@ mod tests {
     fn not_a_permutation() {
         let permutation = b"asdasdasdasdasdasdasdasdas";
         check_permutation(*permutation);
-    
+    }
+
+    #[
