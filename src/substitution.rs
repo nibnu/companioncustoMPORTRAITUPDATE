@@ -100,4 +100,4 @@ mod tests {
     }
 
     #[test]
-    fn perm
+    fn permutat
