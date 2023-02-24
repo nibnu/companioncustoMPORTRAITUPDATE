@@ -100,4 +100,5 @@ mod tests {
     }
 
     #[test]
-    fn permutation() 
+    fn permutation() {
+   
