@@ -101,4 +101,4 @@ mod tests {
 
     #[test]
     fn permutation() {
-        let perm
+        let permutation
