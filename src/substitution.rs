@@ -101,4 +101,4 @@ mod tests {
 
     #[test]
     fn permutation() {
-        let permutation
+        let permutation = b"zy
