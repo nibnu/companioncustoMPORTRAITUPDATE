@@ -102,3 +102,4 @@ mod tests {
     #[test]
     fn permutation() {
         let permutation = b"zyxwvutsrqponmlkjihgfedcba";
+        
