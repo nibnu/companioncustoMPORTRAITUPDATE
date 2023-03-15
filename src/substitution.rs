@@ -103,4 +103,5 @@ mod tests {
     fn permutation() {
         let permutation = b"zyxwvutsrqponmlkjihgfedcba";
         check_permutation(*permutation);
- 
+    }
+
