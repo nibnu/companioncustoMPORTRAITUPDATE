@@ -105,4 +105,5 @@ mod tests {
         check_permutation(*permutation);
     }
 
-    #[tes
+    #[test]
+   
