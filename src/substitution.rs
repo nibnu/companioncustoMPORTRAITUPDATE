@@ -106,4 +106,4 @@ mod tests {
     }
 
     #[test]
-    fn substitution
+    fn substitution_works(
