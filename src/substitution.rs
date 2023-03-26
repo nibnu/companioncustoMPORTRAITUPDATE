@@ -106,4 +106,4 @@ mod tests {
     }
 
     #[test]
-    fn substit
+    fn substitution
