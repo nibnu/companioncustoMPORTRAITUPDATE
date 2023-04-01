@@ -107,4 +107,4 @@ mod tests {
 
     #[test]
     fn substitution_works() {
-        let message = b"h
+        let message = b"hello";
