@@ -108,4 +108,4 @@ mod tests {
     #[test]
     fn substitution_works() {
         let message = b"hello";
-        let permutati
+        let permutation = b"z
