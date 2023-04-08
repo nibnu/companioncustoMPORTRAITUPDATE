@@ -108,4 +108,5 @@ mod tests {
     #[test]
     fn substitution_works() {
         let message = b"hello";
-        let permutation = b"zyxwvutsrqponmlkjihgfedcba
+        let permutation = b"zyxwvutsrqponmlkjihgfedcba";
+  
