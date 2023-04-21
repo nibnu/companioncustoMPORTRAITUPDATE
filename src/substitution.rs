@@ -109,4 +109,5 @@ mod tests {
     fn substitution_works() {
         let message = b"hello";
         let permutation = b"zyxwvutsrqponmlkjihgfedcba";
-        let encrypted_message = substitution_cipher(message, *permuta
+        let encrypted_message = substitution_cipher(message, *permutation);
+     
