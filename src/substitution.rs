@@ -110,4 +110,4 @@ mod tests {
         let message = b"hello";
         let permutation = b"zyxwvutsrqponmlkjihgfedcba";
         let encrypted_message = substitution_cipher(message, *permutation);
-        let decrypted_message 
+        let decrypted_message = substit
