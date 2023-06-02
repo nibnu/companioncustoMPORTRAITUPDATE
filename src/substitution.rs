@@ -112,4 +112,4 @@ mod tests {
         let encrypted_message = substitution_cipher(message, *permutation);
         let decrypted_message = substitution_cipher_decrypt(&encrypted_message, *permutation);
 
-        assert_eq!(message, &decrypt
+        assert_eq!(message, &decrypted_me
