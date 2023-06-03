@@ -113,4 +113,5 @@ mod tests {
         let decrypted_message = substitution_cipher_decrypt(&encrypted_message, *permutation);
 
         assert_eq!(message, &decrypted_message[..]);
- 
+    }
+}
